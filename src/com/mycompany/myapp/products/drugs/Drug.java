@@ -1,6 +1,8 @@
 package com.mycompany.myapp.products.drugs;
 
-public class Drug {
+import com.mycompany.myapp.products.Product;
+
+public class Drug extends Product {
 
 	public Drug() {
 		// TODO Auto-generated constructor stub
