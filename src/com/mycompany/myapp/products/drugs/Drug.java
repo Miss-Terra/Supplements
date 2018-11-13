@@ -4,7 +4,7 @@ import com.mycompany.myapp.products.Product;
 
 public class Drug extends Product {
 
-	public Drug(String n) {
+	public Drug() {
 		
 	}
 

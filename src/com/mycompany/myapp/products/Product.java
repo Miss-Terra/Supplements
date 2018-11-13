@@ -1,8 +1,9 @@
 package com.mycompany.myapp.products;
 
 import com.mycompany.myapp.info.Info;
+import com.mycompany.myapp.views.DefaultView;
 
-public class Product {
+public class Product implements DefaultView {
 	protected String name;
 
 
@@ -16,7 +17,7 @@ public class Product {
 	
 	protected String totalDuration;
 	protected String onset;
-	protected String halflife;
+	protected String eliminationHalfLife;
 	protected String peak;
 	protected String offset;
 
