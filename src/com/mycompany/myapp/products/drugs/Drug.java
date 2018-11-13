@@ -4,8 +4,8 @@ import com.mycompany.myapp.products.Product;
 
 public class Drug extends Product {
 
-	public Drug() {
-		// TODO Auto-generated constructor stub
+	public Drug(String n) {
+		
 	}
 
 }
